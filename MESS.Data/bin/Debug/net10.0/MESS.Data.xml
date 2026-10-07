@@ -1,0 +1,1212 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MESS.Data</name>
+    </assembly>
+    <members>
+        <member name="T:MESS.Data.Context.ApplicationContext">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Context.ApplicationContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{MESS.Data.Context.ApplicationContext})">
+            <inheritdoc />
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.WorkInstructions">
+            <summary>
+            DbSet for WorkInstructions.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.Steps">
+            <summary>
+            DbSet for Steps.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.WorkInstructionNodes">
+            <summary>
+            DbSet for WorkInstructionNodes.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.PartNodes">
+            <summary>
+            DbSet for PartNodes.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.ProductionLogParts">
+            <summary>
+            DbSet for ProductionLogParts.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.ProductionLogs">
+            <summary>
+            DbSet for ProductionLogs.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.ProductionLogDeletionAudits">
+            <summary>
+            DbSet for ProductionLogDeletionAudits.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.ProductionLogSteps">
+            <summary>
+            DbSet for ProductionLogSteps.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.ProductionLogStepAttempts">
+            <summary>
+            DbSet for ProductionLogStepAttempts.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.Products">
+            <summary>
+            DbSet for Products.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.PartDefinitions">
+            <summary>
+            DbSet for Parts.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.SerializableParts">
+            <summary>
+            DbSet for SerializableParts.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.SerializablePartRelationships">
+            <summary>
+            DbSet for SerializablePartRelationships
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.FailureNouns">
+            <summary>
+            DbSet for failure nouns (defect locations).
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.FailureAdjectives">
+            <summary>
+            DbSet for failure adjectives (defect types).
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.Tags">
+            <summary>
+            DbSet for Tags.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Context.ApplicationContext.TagHistories">
+            <summary>
+            DbSet for TagHistories.
+            </summary>
+        </member>
+        <member name="M:MESS.Data.Context.ApplicationContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Context.ApplicationContext.SaveChanges">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Context.ApplicationContext.SaveChangesAsync(System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+        <member name="T:MESS.Data.Context.ApplicationContextFactory">
+            <summary>
+            Used to create a design time DbContext to run migrations via shell
+            </summary>
+        </member>
+        <member name="M:MESS.Data.Context.ApplicationContextFactory.CreateDbContext(System.String[])">
+            <summary>
+            Creates the design time DbContext
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MESS.Data.Migrations.InitialPostgresMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.InitialPostgresMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.InitialPostgresMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.InitialPostgresMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MESS.Data.Migrations.TagsAndTagHistory">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.TagsAndTagHistory.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.TagsAndTagHistory.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.TagsAndTagHistory.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MESS.Data.Migrations.SerializablePartRelationships">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.SerializablePartRelationships.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.SerializablePartRelationships.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.SerializablePartRelationships.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MESS.Data.Migrations.FailureNounsAndAdjectives">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.FailureNounsAndAdjectives.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.FailureNounsAndAdjectives.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.FailureNounsAndAdjectives.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MESS.Data.Migrations.PartDefinitionAndWorkInstructionsUniqueIndex">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.PartDefinitionAndWorkInstructionsUniqueIndex.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.PartDefinitionAndWorkInstructionsUniqueIndex.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.PartDefinitionAndWorkInstructionsUniqueIndex.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MESS.Data.Migrations.IsSerialNumberUniqueFlagAndRenamingPartRelationships">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.IsSerialNumberUniqueFlagAndRenamingPartRelationships.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.IsSerialNumberUniqueFlagAndRenamingPartRelationships.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.IsSerialNumberUniqueFlagAndRenamingPartRelationships.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MESS.Data.Migrations.AddDarkModePreference">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.AddDarkModePreference.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.AddDarkModePreference.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.AddDarkModePreference.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MESS.Data.Migrations.PartRelationshipsView">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.PartRelationshipsView.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.PartRelationshipsView.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.PartRelationshipsView.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MESS.Data.Migrations.AddingFPYProductionView">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.AddingFPYProductionView.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.AddingFPYProductionView.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.AddingFPYProductionView.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MESS.Data.Migrations.AddingProductionLogPartRelationshipsView">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.AddingProductionLogPartRelationshipsView.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.AddingProductionLogPartRelationshipsView.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.AddingProductionLogPartRelationshipsView.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MESS.Data.Migrations.AddPartTraceabilityView">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.AddPartTraceabilityView.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.AddPartTraceabilityView.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.AddPartTraceabilityView.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MESS.Data.Migrations.AddStepNotesConfiguration">
+            <summary>
+            Adds per-step operator notes configuration for production (My Production).
+            </summary>
+        </member>
+        <member name="M:MESS.Data.Migrations.AddStepNotesConfiguration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.AddStepNotesConfiguration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MESS.Data.Migrations.MovePartInputTypeToPartDefinition">
+            <summary>
+            Moves traceability/input type from PartNodes to PartDefinitions (single source per part).
+            </summary>
+        </member>
+        <member name="M:MESS.Data.Migrations.MovePartInputTypeToPartDefinition.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.MovePartInputTypeToPartDefinition.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.MovePartInputTypeToPartDefinition.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MESS.Data.Migrations.StepAttemptDefectCodesAndWorkInstructionNouns">
+            <summary>
+            Adds nullable defect noun/adjective FKs on step attempts and a many-to-many
+            table linking work instructions to failure nouns available in production.
+            </summary>
+        </member>
+        <member name="M:MESS.Data.Migrations.StepAttemptDefectCodesAndWorkInstructionNouns.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:MESS.Data.Migrations.StepAttemptDefectCodesAndWorkInstructionNouns.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:MESS.Data.Models.ApplicationUser">
+            <summary>
+            Represents an application user with additional properties.
+            Inherits from IdentityUser.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ApplicationUser.FirstName">
+            <summary>
+            Gets or sets the first name of the user.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ApplicationUser.LastName">
+            <summary>
+            Gets or sets the last name of the user.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ApplicationUser.IsActive">
+            <summary>
+            Gets or sets a value indicating whether the user is active.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ApplicationUser.ProductionLogIds">
+            <summary>
+            Gets or sets the list of production log IDs associated with the user.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ApplicationUser.DarkMode">
+            <summary>
+            Gets or sets a value indicating whether the user prefers dark mode.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ApplicationUser.AllowLegacyUsernameSignIn">
+            <summary>
+            When true and the user has no password, allow username-only sign-in while global legacy mode is enabled.
+            Set false to force password or Microsoft login for this account.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ApplicationUser.FullName">
+            <summary>
+            Gets the full name of the user by combining the first and last names.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.ApplicationUserValidator">
+            <summary>
+            Validator for the ApplicationUser class.
+            </summary>
+        </member>
+        <member name="M:MESS.Data.Models.ApplicationUserValidator.#ctor">
+            <summary>
+            Initializes a new instance of the ApplicationUserValidator class.
+            Defines validation rules for ApplicationUser properties.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.AuditableEntity">
+            <summary>
+            Represents an abstract base class for entities that are auditable.
+            Contains properties for tracking creation and modification metadata.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.AuditableEntity.CreatedBy">
+            <summary>
+            Gets or sets the identifier of the user who created the entity.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.AuditableEntity.CreatedOn">
+            <summary>
+            Gets or sets the timestamp when the entity was created.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.AuditableEntity.LastModifiedBy">
+            <summary>
+            Gets or sets the identifier of the user who last modified the entity.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.AuditableEntity.LastModifiedOn">
+            <summary>
+            Gets or sets the timestamp when the entity was last modified.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.AuditableEntityValidator">
+            <summary>
+            Validator for the <see cref="T:MESS.Data.Models.AuditableEntity"/> class.
+            Ensures that the properties of the entity meet the required validation rules.
+            </summary>
+        </member>
+        <member name="M:MESS.Data.Models.AuditableEntityValidator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MESS.Data.Models.AuditableEntityValidator"/> class.
+            Defines validation rules for the <see cref="T:MESS.Data.Models.AuditableEntity"/> properties.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.FailureAdjective">
+            <summary>
+            Represents an adjective describing a type of failure that can occur to one or more nouns (components or parts).
+            </summary>
+            <remarks>
+            Each <see cref="T:MESS.Data.Models.FailureAdjective"/> can be associated with multiple <see cref="T:MESS.Data.Models.FailureNoun"/>s,
+            allowing the system to filter which adjectives are valid based on the selected noun.
+            For example, the adjective "Broken" could apply to both "Screen" and "Button".
+            </remarks>
+        </member>
+        <member name="P:MESS.Data.Models.FailureAdjective.Id">
+            <summary>
+            Primary key for the <see cref="T:MESS.Data.Models.FailureAdjective"/>.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.FailureAdjective.Name">
+            <summary>
+            The name of the adjective, e.g., "Broken", "Scratched", or "Flickering".
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.FailureAdjective.Nouns">
+            <summary>
+            Collection of nouns that this adjective can apply to.
+            Used for filtering available adjectives based on the selected noun.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.FailureNoun">
+            <summary>
+            Represents a noun (component or part) that can experience failures.
+            </summary>
+            <remarks>
+            Each <see cref="T:MESS.Data.Models.FailureNoun"/> can have multiple associated <see cref="T:MESS.Data.Models.FailureAdjective"/>s,
+            allowing operators to select valid failure types for the noun.
+            For example, the noun "Screen" could have adjectives like "Broken" or "Flickering".
+            </remarks>
+        </member>
+        <member name="P:MESS.Data.Models.FailureNoun.Id">
+            <summary>
+            Primary key for the <see cref="T:MESS.Data.Models.FailureNoun"/>.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.FailureNoun.Name">
+            <summary>
+            The name of the noun, e.g., "Screen", "Button", or "Motor".
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.FailureNoun.Adjectives">
+            <summary>
+            Collection of adjectives that can describe failures for this noun.
+            Used for filtering available adjectives when a noun is selected.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.FailureNoun.WorkInstructions">
+            <summary>
+            Work instructions that expose this noun as a selectable defect location.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.PartDefinition">
+            <summary>
+            Represents a part entity with an ID, part number, and part name.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.PartDefinition.Id">
+            <summary>
+            Gets or sets the unique identifier for the part.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.PartDefinition.Number">
+            <summary>
+            Gets or sets the part number. This field is optional.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.PartDefinition.Name">
+            <summary>
+            Gets or sets the name of the part. This field is required.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.PartDefinition.InputType">
+            <summary>
+            Whether operators enter an external ID (serial) or scan an internal tag for this part during production.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.PartDefinition.IsSerialNumberUnique">
+            <summary>
+            Gets or sets a value indicating whether instances (serializable parts) of this part definition
+            can be uniquely identified by their serial number.
+            </summary>
+            <remarks>
+            When set to <c>true</c>, each serial number is expected to be unique for this part
+            definition and may be used as a sole identifier for individual part instances.
+            When <c>false</c>, serial numbers are not guaranteed to be unique and additional
+            identifying information may be required.
+            </remarks>
+        </member>
+        <member name="T:MESS.Data.Models.PartNode">
+            <summary>
+            Represents an "Action" or node in a work instruction that is associated with a single part.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.PartNode.PartDefinitionId">
+            <summary>
+            Gets or sets the foreign key of the part associated with this node.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.PartNode.PartDefinition">
+            <summary>
+            Gets or sets the part associated with this node.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.PartInputType">
+            <summary>
+            Defines the type of input expected by a <see cref="T:MESS.Data.Models.PartNode"/> (stored on <see cref="T:MESS.Data.Models.PartDefinition"/>).
+            </summary>
+            <remarks>
+            This enumeration determines how a user or system should provide
+            identifying information for a part when completing a work instruction step.
+            </remarks>
+        </member>
+        <member name="F:MESS.Data.Models.PartInputType.SerialNumber">
+            <summary>
+            Indicates that the part node expects a unique serial number
+            associated with a <see cref="T:MESS.Data.Models.SerializablePart"/>.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.PartInputType.Tag">
+            <summary>
+            Indicates that the part node expects a scanned or manually entered
+            tag code corresponding to a <see cref="F:MESS.Data.Models.PartInputType.Tag"/>. The tag is used to
+            identify the associated <see cref="T:MESS.Data.Models.SerializablePart"/> for traceability.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.Product">
+            <summary>
+            Represents a product entity that references a part definition,
+            determines whether it is active, and associates related work instructions.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Product.Id">
+            <summary>
+            Gets or sets the unique identifier for the product.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Product.PartDefinitionId">
+            <summary>
+            Gets or sets the foreign key to the associated part definition.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Product.PartDefinition">
+            <summary>
+            Gets or sets the part definition associated with this product.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Product.IsActive">
+            <summary>
+            Gets or sets a value indicating whether the product is active.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Product.WorkInstructions">
+            <summary>
+            Gets or sets the list of work instructions associated with the product.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.ProductionLog">
+            <summary>
+            Represents a production log that tracks steps and details of a production process.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLog.Id">
+            <summary>
+            Gets or sets the unique identifier for the production log.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLog.LogSteps">
+            <summary>
+            Gets or sets the list of steps associated with the production log.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLog.OperatorId">
+            <summary>
+            Gets or sets the identifier of the operator associated with the production log.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLog.ProductId">
+            <summary>
+            Gets or sets the product ID associated with the production log.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLog.Product">
+            <summary>
+            Gets or sets the product associated with the production log.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLog.WorkInstructionId">
+            <summary>
+            Gets or sets the work instruction ID associated with the production log.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLog.WorkInstruction">
+            <summary>
+            Gets or sets the work instruction associated with the production log.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLog.FromBatchOf">
+            <summary>
+            Gets or sets an unsigned integer value specifying the size of the batch this production log was made from.
+            A value of 1 indicates that the log was made from a single piece flow.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLog.ExternalId">
+            <summary>
+            The original ID from a source system when this log was created via import.
+            Null for logs created natively. Used for duplicate detection on re-import.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLog.ImportedBy">
+            <summary>
+            The username of the person who imported this log. Null for natively created logs.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLog.ImportedOn">
+            <summary>
+            The timestamp when this log was imported. Null for natively created logs.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.ProductionLogDeletionAudit">
+            <summary>
+            Audit record written whenever production logs are bulk-deleted.
+            Captures who deleted, when, how many logs, and the export filename used as the deletion gate.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogDeletionAudit.Id">
+            <summary>Gets or sets the primary key.</summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogDeletionAudit.DeletedBy">
+            <summary>Gets or sets the username of the person who performed the deletion.</summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogDeletionAudit.DeletedOn">
+            <summary>Gets or sets the UTC timestamp when the deletion occurred.</summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogDeletionAudit.LogCount">
+            <summary>Gets or sets the number of logs deleted in this operation.</summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogDeletionAudit.LogIds">
+            <summary>Gets or sets the snapshot of the deleted production log IDs.</summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogDeletionAudit.ExportFile">
+            <summary>Gets or sets the filename of the export file downloaded before deletion.</summary>
+        </member>
+        <member name="T:MESS.Data.Models.ProductionLogPart">
+            <summary>
+            Represents a log entry linking a serialized part to a specific production log event,
+            including operations such as production, installation, and removal.
+            </summary>
+            <remarks>
+            This table captures the full lifecycle history of serialized parts. Each record reflects
+            a single event (Produced, Installed, or Removed) during a production log entry.
+            </remarks>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogPart.ProductionLogId">
+            <summary>
+            Gets or sets the identifier of the associated production log in which this event occurred.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogPart.SerializablePartId">
+            <summary>
+            Gets or sets the identifier of the serialized part involved in this event.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogPart.OperationType">
+            <summary>
+            Gets or sets the type of operation performed on this part during the production log event.
+            </summary>
+            <remarks>
+            Possible operations include:
+            <list type="bullet">
+            <item><see cref="F:MESS.Data.Models.PartOperationType.Produced"/> – A new part was created.</item>
+            <item><see cref="F:MESS.Data.Models.PartOperationType.Installed"/> – A part was installed into a parent assembly.</item>
+            <item><see cref="F:MESS.Data.Models.PartOperationType.Removed"/> – A part was removed from a parent assembly.</item>
+            </list>
+            </remarks>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogPart.ProductionLog">
+            <summary>
+            Navigation property for the associated production log.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogPart.SerializablePart">
+            <summary>
+            Navigation property for the serialized part involved in this event.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.PartOperationType">
+            <summary>
+            Defines the type of operation performed on a serialized part within a production log.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.PartOperationType.Installed">
+            <summary>
+            The part was installed into a parent assembly.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.PartOperationType.Produced">
+            <summary>
+            The part was newly produced or created during the production process.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.PartOperationType.Removed">
+            <summary>
+            The part was removed from a parent assembly.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.ProductionLogStep">
+            <summary>
+            Represents a step in the production log.
+            Similar to the <see cref="T:MESS.Data.Models.Step"/> but is used to persist the data within the database.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStep.Id">
+            <summary>
+            Gets or sets the unique identifier for the production log step.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStep.ProductionLogId">
+            <summary>
+            Gets or sets the identifier of the associated production log.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStep.ProductionLog">
+            <summary>
+            Gets or sets the associated ProductionLog
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStep.WorkInstructionStepId">
+            <summary>
+            Gets or sets the identifier of the associated work instruction step.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStep.WorkInstructionStep">
+            <summary>
+            Gets or sets the associated work instruction step details.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStep.Attempts">
+            <summary>
+            Gets or sets the collection of attempts for this step
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStep.LatestAttempt">
+            <summary>
+            Helper property to get the most recent attempt
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.ProductionLogStepAttempt">
+            <summary>
+            Represents an attempt for a step in the production log. One step can have multiple of these.
+            Similar to the <see cref="T:MESS.Data.Models.Step"/> but is used to persist the data within the database.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStepAttempt.Id">
+            <summary>
+            Gets or sets the unique identifier for the production log step attempt.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStepAttempt.ProductionLogStepId">
+            <summary>
+            Gets or sets the identifier of the associated production log step.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStepAttempt.Success">
+            <summary>
+            Gets or sets a value indicating whether the step attempt was successful.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStepAttempt.Notes">
+            <summary>
+            Gets or sets any additional notes for the step attempt.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStepAttempt.SubmitTime">
+            <summary>
+            Gets or sets the time the step attempt occured.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStepAttempt.ProductionLogStep">
+            <summary>
+            Gets or sets the associated production log step
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStepAttempt.FailureNounId">
+            <summary>
+            Optional defect location code (failure noun) selected when recording this attempt.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStepAttempt.FailureAdjectiveId">
+            <summary>
+            Optional defect description code (failure adjective) selected when recording this attempt.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStepAttempt.FailureNoun">
+            <summary>
+            Navigation to the selected failure noun, if any.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.ProductionLogStepAttempt.FailureAdjective">
+            <summary>
+            Navigation to the selected failure adjective, if any.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.SerializablePart">
+            <summary>
+            Represents an individual serialized part instance derived from a part definition.
+            Serialized parts can be nested within one another to represent assemblies.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.SerializablePart.Id">
+            <summary>
+            Gets or sets the unique identifier for the serialized part.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.SerializablePart.PartDefinitionId">
+            <summary>
+            Gets or sets the foreign key to the base part definition.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.SerializablePart.PartDefinition">
+            <summary>
+            Gets or sets the base part definition.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.SerializablePart.SerialNumber">
+            <summary>
+            Gets or sets the serial number identifying this particular instance.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.SerializablePart.ProductionLogParts">
+            <summary>
+            Gets or sets the collection of production log associations for this serialized part.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.SerializablePart.ParentRelationship">
+            <summary>
+            The parent assembly this part is currently installed in.
+            Null if it’s a top-level part.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.SerializablePart.ChildrenRelationships">
+            <summary>
+            All child parts currently installed in this part.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.SerializablePartRelationship">
+            <summary>
+            Represents the current parent-child relationship between serialized parts.
+            Each record indicates that a child part is installed in a parent part.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.SerializablePartRelationship.Id">
+            <summary>
+            Gets or sets the unique identifier for this relationship.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.SerializablePartRelationship.ChildPartId">
+            <summary>
+            Gets or sets the child serialized part in this relationship.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.SerializablePartRelationship.ChildPart">
+            <summary>
+            Navigation property to the child part.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.SerializablePartRelationship.ParentPartId">
+            <summary>
+            Gets or sets the parent serialized part in this relationship.
+            Null if the child part is not currently installed in any parent.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.SerializablePartRelationship.ParentPart">
+            <summary>
+            Navigation property to the parent part.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.SerializablePartRelationship.LastUpdated">
+            <summary>
+            Gets or sets the timestamp when this relationship was last updated.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.Step">
+            <summary>
+            Represents a step in a work instruction, inheriting from <see cref="T:MESS.Data.Models.WorkInstructionNode"/>.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Step.Name">
+            <summary>
+            Gets or sets the name of the step. This property is required.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Step.Body">
+            <summary>
+            Gets or sets the body of the step. This property is required.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Step.DetailedBody">
+            <summary>
+            Gets or sets the detailed body content of the step. This property is optional.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Step.PrimaryMedia">
+            <summary>
+            Gets or sets the list of primary media associated with the step.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Step.SecondaryMedia">
+            <summary>
+            Gets or sets the list of secondary media associated with the step.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Step.NotesConfiguration">
+            <summary>
+            How operator notes (production log step attempts) behave for this step in My Production.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.StepNotesConfiguration">
+            <summary>
+            Controls when step notes are shown in production and whether a note is required.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.StepNotesConfiguration.OptionalForFailure">
+            <summary>Notes appear only after Failure; not required (legacy behavior).</summary>
+        </member>
+        <member name="F:MESS.Data.Models.StepNotesConfiguration.Required">
+            <summary>Notes are always visible; a note is required for Success and Failure.</summary>
+        </member>
+        <member name="F:MESS.Data.Models.StepNotesConfiguration.Optional">
+            <summary>Notes are always visible; optional for both outcomes.</summary>
+        </member>
+        <member name="T:MESS.Data.Models.Tag">
+            <summary>
+            A model representing a physical tag (QR code or barcode) that can be assigned to a serializable part for traceability purposes.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Tag.Id">
+            <summary>
+            A unique internal identifier for tags.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Tag.Code">
+            <summary>
+            Human-readable tag code (QR or barcode value).
+            Example: TAG-000123
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Tag.Status">
+            <summary>
+            Current status of the tag.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Tag.CreatedAt">
+            <summary>
+            When the tag was created.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Tag.SerializablePartId">
+            <summary>
+            Serializable part currently assigned to this tag.
+            Null when tag is available.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Tag.SerializablePart">
+            <summary>
+            A navigation property to the serializable part currently assigned to this tag.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.Tag.History">
+            <summary>
+            Navigation to tag history events.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.TagStatus">
+            <summary>
+            Represents the current state of a tag in the system.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.TagStatus.Available">
+            <summary>
+            The tag exists in the system but is not yet assigned to a part.
+            It is available to be printed or assigned.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.TagStatus.Assigned">
+            <summary>
+            The tag has been assigned to a serializable part and is currently in use.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.TagStatus.Retired">
+            <summary>
+            The tag is permanently removed from use.
+            This could be due to being lost, damaged, replaced, or otherwise retired.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.TagHistory">
+            <summary>
+            Represents a historical event for a <see cref="P:MESS.Data.Models.TagHistory.Tag"/> in the system.
+            Each record captures a single action or state change for traceability.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.TagHistory.Id">
+            <summary>
+            The primary key for this history record.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.TagHistory.TagId">
+            <summary>
+            The foreign key to the <see cref="P:MESS.Data.Models.TagHistory.Tag"/> associated with this event.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.TagHistory.Tag">
+            <summary>
+            Navigation property to the <see cref="P:MESS.Data.Models.TagHistory.Tag"/> associated with this event.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.TagHistory.EventType">
+            <summary>
+            The type of event that occurred, representing the tag's lifecycle action.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.TagHistory.Timestamp">
+            <summary>
+            The date and time when the event occurred.
+            Stored as <see cref="T:System.DateTimeOffset"/> to preserve time zone information.
+            Defaults to the current UTC time when the record is created.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.TagHistory.SerializablePartId">
+            <summary>
+            Optional foreign key to a <see cref="T:MESS.Data.Models.SerializablePart"/> involved in this event.
+            Null if the event is not related to a specific part.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.TagEventType">
+            <summary>
+            Defines the types of events that can occur for a <see cref="T:MESS.Data.Models.Tag"/>.
+            These events capture the tag's lifecycle and provide traceability.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.TagEventType.Created">
+            <summary>
+            The tag record was created in the system.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.TagEventType.Printed">
+            <summary>
+            A physical label or QR code for the tag was printed.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.TagEventType.Assigned">
+            <summary>
+            The tag was assigned to a <see cref="T:MESS.Data.Models.SerializablePart"/> and is currently in use.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.TagEventType.Unassigned">
+            <summary>
+            The tag was unassigned from a <see cref="T:MESS.Data.Models.SerializablePart"/>, for example during replacement or error correction.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.TagEventType.Retired">
+            <summary>
+            The tag has been permanently removed from use.
+            This could be due to being lost, damaged, replaced, or otherwise retired.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.TagEventType.Deleted">
+            <summary>
+            This tag was deleted before it could ever be assigned or retired.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.WorkInstruction">
+            <summary>
+            Represents a work instruction entity
+            Details contain title, version, status, and associated nodes and products.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstruction.Id">
+            <summary>
+            Gets or sets the unique identifier for the work instruction.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstruction.Title">
+            <summary>
+            Gets or sets the title of the work instruction. This field is required.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstruction.Version">
+            <summary>
+            Gets or sets the version of the work instruction. This field is optional.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstruction.OriginalId">
+            <summary>
+            Gets or sets the id of the original work instruction in the version history. This allows for lineage tracking
+            and is nullable.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstruction.Original">
+            <summary>
+            Gets or sets the original work instruction in the version history.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstruction.IsLatest">
+            <summary>
+            Gets or sets a value indicating whether a work instruction is its latest version.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstruction.IsActive">
+            <summary>
+            Gets or sets a value indicating whether the work instruction is active.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstruction.ShouldGenerateQrCode">
+            <summary>
+            Gets or sets a value indicating whether this work instruction should have a QR code generated when a production
+            log is completed for it.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstruction.PartProducedIsSerialized">
+            <summary>
+            Indicates whether the part produced by this work instruction is serialized.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstruction.PartProducedId">
+            <summary>
+            Foreign key for the part produced by this work instruction.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstruction.PartProduced">
+            <summary>
+            The part produced by this work instruction.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstruction.Nodes">
+            <summary>
+            Gets or sets the list of nodes associated with the work instruction.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstruction.Products">
+            <summary>
+            Gets or sets the list of products associated with the work instruction.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstruction.FailureNouns">
+            <summary>
+            Failure nouns (defect locations) that operators may select when logging failures for this work instruction.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.WorkInstructionValidator">
+            <summary>
+            Validator for the <see cref="T:MESS.Data.Models.WorkInstruction"/> class.
+            Ensures that the properties of a work instruction meet the required validation rules.
+            </summary>
+        </member>
+        <member name="M:MESS.Data.Models.WorkInstructionValidator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MESS.Data.Models.WorkInstructionValidator"/> class.
+            Defines validation rules for the <see cref="T:MESS.Data.Models.WorkInstruction"/> entity.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.WorkInstructionNode">
+            <summary>
+            Represents an abstract base class for a work instruction node.
+            Primarily used for UI purposes (i.e. Drag and Drop, etc.)
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstructionNode.Id">
+            <summary>
+            Gets or sets the unique identifier of the work instruction node.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstructionNode.Position">
+            <summary>
+            Gets or sets the position of the work instruction node.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstructionNode.NodeType">
+            <summary>
+            Gets or sets the type of the work instruction node.
+            </summary>
+        </member>
+        <member name="P:MESS.Data.Models.WorkInstructionNode.ClientId">
+            <summary>
+            A client-generated unique identifier for unsaved nodes.
+            Not persisted in the database.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Models.WorkInstructionNodeType">
+            <summary>
+            Enum of the possible types of a WorkInstructionNode.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.WorkInstructionNodeType.Part">
+            <summary>
+            Represents a part type of work instruction node.
+            </summary>
+        </member>
+        <member name="F:MESS.Data.Models.WorkInstructionNodeType.Step">
+            <summary>
+            Represents a step type of work instruction node.
+            </summary>
+        </member>
+        <member name="T:MESS.Data.Seed.InitialUserSeed">
+            <summary>
+            Provides methods for seeding initial user data into the database.
+            </summary>
+        </member>
+        <member name="M:MESS.Data.Seed.InitialUserSeed.SeedDefaultUserAsync(System.IServiceProvider)">
+            <summary>
+            Seeds a default user with Technician permissions if the user does not already exist.
+            NOTE: The password of this user should be changed as soon as possible once the application is running.
+            </summary>
+            <param name="serviceProvider">The service provider used to resolve dependencies.</param>
+            <returns>A task that represents the asynchronous operation.</returns>
+        </member>
+        <member name="T:MESS.Data.Seed.SeedWorkInstructions">
+            <summary>
+            Provides methods to seed sample work instructions into the database.
+            </summary>
+        </member>
+        <member name="M:MESS.Data.Seed.SeedWorkInstructions.Seed(System.IServiceProvider)">
+            <summary>
+            Seeder to generate sample work instructions for a new project. 
+            </summary>
+            <param name="serviceProvider"></param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+C:\Users\Chg10\WorkBuddy\2026-09-08-14-31-12\MESS-main\MESS\MESS.Data\bin\Debug\net10.0\MESS.Data.deps.json
+C:\Users\Chg10\WorkBuddy\2026-09-08-14-31-12\MESS-main\MESS\MESS.Data\bin\Debug\net10.0\MESS.Data.runtimeconfig.json
+C:\Users\Chg10\WorkBuddy\2026-09-08-14-31-12\MESS-main\MESS\MESS.Data\bin\Debug\net10.0\MESS.Data.dll
+C:\Users\Chg10\WorkBuddy\2026-09-08-14-31-12\MESS-main\MESS\MESS.Data\bin\Debug\net10.0\MESS.Data.pdb
+C:\Users\Chg10\WorkBuddy\2026-09-08-14-31-12\MESS-main\MESS\MESS.Data\bin\Debug\net10.0\MESS.Data.xml
+C:\Users\Chg10\WorkBuddy\2026-09-08-14-31-12\MESS-main\MESS\MESS.Data\obj\Debug\net10.0\MESS.Data.csproj.AssemblyReference.cache
+C:\Users\Chg10\WorkBuddy\2026-09-08-14-31-12\MESS-main\MESS\MESS.Data\obj\Debug\net10.0\MESS.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chg10\WorkBuddy\2026-09-08-14-31-12\MESS-main\MESS\MESS.Data\obj\Debug\net10.0\MESS.Data.AssemblyInfoInputs.cache
+C:\Users\Chg10\WorkBuddy\2026-09-08-14-31-12\MESS-main\MESS\MESS.Data\obj\Debug\net10.0\MESS.Data.AssemblyInfo.cs
+C:\Users\Chg10\WorkBuddy\2026-09-08-14-31-12\MESS-main\MESS\MESS.Data\obj\Debug\net10.0\MESS.Data.csproj.CoreCompileInputs.cache
+C:\Users\Chg10\WorkBuddy\2026-09-08-14-31-12\MESS-main\MESS\MESS.Data\obj\Debug\net10.0\MESS.Data.dll
+C:\Users\Chg10\WorkBuddy\2026-09-08-14-31-12\MESS-main\MESS\MESS.Data\obj\Debug\net10.0\refint\MESS.Data.dll
+C:\Users\Chg10\WorkBuddy\2026-09-08-14-31-12\MESS-main\MESS\MESS.Data\obj\Debug\net10.0\MESS.Data.pdb
+C:\Users\Chg10\WorkBuddy\2026-09-08-14-31-12\MESS-main\MESS\MESS.Data\obj\Debug\net10.0\MESS.Data.genruntimeconfig.cache
+C:\Users\Chg10\WorkBuddy\2026-09-08-14-31-12\MESS-main\MESS\MESS.Data\obj\Debug\net10.0\ref\MESS.Data.dll
